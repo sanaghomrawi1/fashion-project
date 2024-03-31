@@ -1,0 +1,326 @@
+
+@font-face {
+    font-family: 'Veminit';
+    src: url('fonts/otf.otf') format('opentype');
+}
+
+   
+
+body{
+   
+    height:100vh;
+    width:100%;
+    background-image: url("images/stylish-european-brunette-woman-red-coat-black-hat-posing-white-wall.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+
+}
+nav{display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 40px;
+padding-left: 10%;
+padding-right: 10%;}
+
+.logo{ 
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+  font-weight: bold  ;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color :#980303;
+    transition: .3s;
+}
+button{
+    border: none;
+    background: #980303;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .4s;
+    color: #e4e1e1;
+
+
+}
+button:hover{ transform: scale(1.3);
+cursor: pointer; }
+
+h1{
+    font-size: 20em;
+    top: -30;
+    font-family:'Veminit', serif;
+    position: relative;
+    left:10%;
+    transition: color 0.5s ease-in-out;
+    font-weight: lighter ;
+}
+
+#clothing{padding: 50px;
+  margin: 0px;
+    background-color: #e4e1e1;
+    font-family: 'Veminit';
+    font-size: 8em;
+   font-weight: lighter ;
+   
+   margin-bottom: -30%;
+   border-style: double;
+   border-color:#980303;
+   z-index: 3;}
+
+h2{
+  font-family: 'Veminit';
+
+font-weight: lighter;
+font-size :100%;
+background-color: #980303;
+color: #e6e6e6;
+display: inline-block;
+transition: color 0.5s ease-in-out;
+}
+
+
+
+h2:hover{ transform: scale(1.3);
+  cursor: pointer;}
+ 
+
+
+
+
+
+.btnbtn{ color:aliceblue;
+    background-color: black;
+    font-size: 15%;
+    font-family:"Veminit";
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;}
+
+   h5{position: relative;
+    top: 0;
+    left: 0;
+   
+    padding: 10px;
+    margin: 0;
+    font-size: 30%;
+  
+  font-weight:lighter;
+
+
+   } 
+   .bouut{color:aliceblue;
+    background-color: black;
+    font-size: 15%;
+    font-family:'Veminit';
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+
+   }
+   .container {
+    position: relative;
+  }
+  
+  .background-div {
+    position:relative;
+    top: -70px;
+    background-image: url('images/10.jpg');
+    background-size: cover; /* Adjust to cover the entire div */
+    /* Adjust to position the background */
+    width: 70%; /* Adjust to fit your layout */
+    height: 800px; /* Adjust to fit your layout */
+    margin-bottom: 30px;
+    z-index: 1;
+  }
+  .new{
+    text-align: center;
+    position: relative;
+  top: 60%;
+  color: #e6e6e6;
+  font-size: 100%;
+  margin:5px 1;
+  font-family: "Veminit",sans-serif ;
+  background-color: #980303;
+  transition: color 0.5s ease-in-out;
+  
+
+  }
+  
+ 
+  
+ 
+ .new:hover{ transform: scale(1.3);
+    cursor: pointer;}
+
+  .paragh{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    font-size: 30px;
+    margin-top: -150px; /* Adjust the distance from the background div */
+    padding: 20px; 
+    
+    
+  
+ 
+   
+  }
+  p{
+    color: black;
+    margin: 5px 0;
+   
+    margin-top: 150px;
+    font-size :50px;
+    font-family: "Veminit";
+  }
+  h3{
+    font-family: 'Veminit';
+
+font-weight: lighter;
+font-size :100%;
+background-color: #980303;
+color: #e6e6e6;
+display: inline-block;
+transition: color 0.5s ease-in-out;
+position: relative;
+margin-top: 40px;
+
+  }
+  h3:hover{
+
+    transform: scale(1.3);
+  cursor: pointer;
+
+  }
+  .row{
+    white-space: nowrap;
+
+  }
+  
+  .image-container {
+    display: inline-block;
+    position: relative;
+  /* Set the width of each image container (adjust as needed) */
+  margin-right: 10px;
+  margin-bottom:34%
+   /* Ensure the containers stay inline */
+  }
+  .image-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for better readability */
+    padding: 5px; /* Adjust padding as needed */
+    margin: 0; /* Reset margin to remove any default margin */
+    font-size: 40px;
+  }
+  /* Add some spacing between sections */
+
+
+#contact-us{
+  
+  background-color:  #980303 !important; /* Ensure the background color is applied */
+  padding: 15px ; 
+
+   
+    font-family: 'Veminit';
+    font-size: 8em;
+   font-weight: lighter ;
+   color: white;
+   text-align: center;
+  height: 40%;
+  margin-top: 30%;
+
+
+}
+.text-center{
+  color: white;
+  text-align: left;
+
+  position: relative;
+  bottom:30%;
+  font-size: 30px;
+}
+.bllabla{color: white;
+  
+ position: relative;
+ bottom:90%;
+  font-size: 30px;
+
+}
+.mmm{
+  color:white;
+  text-align: right;
+  font-size: 30px;
+  position: relative;
+bottom: 150%;
+}
+/* Default styles */
+
+/* Media query for smaller devices (phones) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for smaller devices */
+}
+
+/* Media query for medium-sized devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* CSS rules for medium-sized devices */
+}
+
+/* Media query for larger devices (desktops) */
+@media only screen and (min-width: 1025px) {
+  /* CSS rules for larger devices */
+}
+
+.caption{
+  position: relative;
+  left:40%;
+margin-top: -230px;
+font-size:70px;
+}
+.caption {
+  transition: opacity 0.1s ease; /* Apply transition to opacity property */
+  opacity: 0; /* Initially hide the text */
+}
+
+.image-container:hover .caption {
+  opacity: 1; /* Show the text on hover */
+}
+.image-container img {
+  transition: transform 0.3s ease; /* Apply transition to transform property */
+}
+
+.image-container:hover img {
+  transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+.image img{
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.image:hover img {
+  transform: scale(1.1);
+}
+.image2 img {
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.image2:hover img {
+  transform: scale(1.1);
+}
